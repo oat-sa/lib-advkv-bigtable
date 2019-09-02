@@ -1,0 +1,38 @@
+{
+	"name" : "oat-sa/lib-advkv-bigtable",
+	"description" : "Key-Value Bigtable implementation",
+	"type" : "library",
+	"authors" : [
+		{
+			"name" : "Open Assessment Technologies S.A.",
+			"homepage" : "http://www.taotesting.com"
+		}
+	],
+	"support": {
+		"forum": "http://forum.taotesting.com",
+		"issues": "http://forge.taotesting.com"
+	},
+	"keywords" : [
+		"tao",
+		"oat",
+		"couchbase",
+		"computer-based-assessment"
+	],
+	"homepage" : "http://www.taotesting.com",
+	"license" : [
+		"GPL-2.0-only"
+	],
+	"require" : {
+		"php" : ">=7.1"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"oat\\advkv-bigtable\\" : "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"oat\\advkv-bigtable-test\\": "test/"
+		}
+	}
+}
