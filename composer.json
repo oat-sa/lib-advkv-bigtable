@@ -23,7 +23,8 @@
 		"GPL-2.0-only"
 	],
 	"require" : {
-		"php" : ">=7.1"
+		"php" : ">=7.1",
+		"google/cloud-bigtable": "^1.0"
 	},
 	"autoload" : {
 		"psr-4" : {
